@@ -16,15 +16,6 @@ import Image from "next/image";
 export default function Portfolio() {
   return (
     <div className="min-h-screen  bg-gradient-to-br from-[#f6f6f6] via-[#e9e9e9] to-[#d7d7d7] text-gray-800 relative overflow-hidden">
-      {/* Animated noise background */}
-      <div
-        className="fixed inset-0 opacity-10"
-        style={{
-          backgroundImage: 'url("/noise.png")',
-          animation: "noise 1s steps(2) infinite",
-        }}
-      />
-
       <main className="relative max-w-3xl mx-auto lg:px-4 lg:py-8 px-3 py-6 space-y-8 sm:space-y-12">
         {/* Profile Card */}
         <Card className="w-full bg-white/90 backdrop-blur shadow-lg border-2 border-gray-700">
