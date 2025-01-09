@@ -33,6 +33,7 @@ export default function Portfolio() {
               <div className="relative">
                 <div className="w-28 h-28 rounded-full overflow-hidden border-2 border-gray-300">
                   <Image
+                    priority
                     alt="Profile"
                     src={profilePic}
                     className="w-full h-full object-cover"
